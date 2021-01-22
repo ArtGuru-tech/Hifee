@@ -361,7 +361,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  margin-top: 70px;
+  /* margin-top: 70px; */
 }
 
 #hero h1 {
@@ -400,11 +400,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 30px;
   border-radius: 50px;
   transition: 0.5s;
-  color: #3498db;
-  border: 2px solid #3498db;
+  color: #15203F;
+  border: 2px solid #15203F;
 }
 #hero-cta:hover {
-  background: #3498db;
+  background: #15203F;
   color: #fff;
 }
 /* End Typeform Button */
