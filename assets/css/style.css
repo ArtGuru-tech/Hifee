@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 200px;
+  max-height: 120px;
 }
 
 @media (max-width: 768px) {
@@ -410,6 +410,19 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   color: #15203F;
   border: 2px solid #15203F;
+}
+#hero-cta-nav {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #ffffff;
+  border: 0px solid #15203F;
+  background-color: #9bd7ff;
 }
 #hero-cta:hover {
   background: #15203F;
