@@ -106,6 +106,9 @@ h1, h2, h3, h4, h5, h6 {
   #header .logo h1 {
     font-size: 28px;
   }
+  #header .logo img {
+    max-height: 8vh;
+  }
 }
 
 /*--------------------------------------------------------------
