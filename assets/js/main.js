@@ -115,8 +115,10 @@
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('#header').addClass('header-scrolled');
+      $('#logo-header').animate({maxHeight:'50px'});
     } else {
       $('#header').removeClass('header-scrolled');
+      $('#logo-header').animate({maxHeight:'98px'});
     }
   });
 
